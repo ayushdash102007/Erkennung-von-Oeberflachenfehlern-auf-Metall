@@ -14,5 +14,6 @@ flowchart TD
     D --> E[Training des Modells]
     E --> F[Validierung des Modells]
     F --> G{Zufriedenheit mit dem Modell}
-    G --> H([End])
+    G -- No --> E
+    G -- Yes --> H([End])
 ```

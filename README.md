@@ -9,7 +9,7 @@ Dieses Projekt verwendet Methoden des Deep Learnings, um Öberflachenfehlern auf
 ```mermaid
 flowchart TD
     A([Beginn]) --> B[Laden des Datasatzen]
-    B --> C[Vorverarbeitung von Bildern (Normalisierung)]
+    B --> C[Vorverarbeitung von Bildern Normalisierung]
     C --> D[Aufbau des CNN Modells]
     D --> E[Training des Modells]
     E --> F[Validierung des Modells]
